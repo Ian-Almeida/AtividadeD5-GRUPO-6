@@ -3,6 +3,9 @@ O projeto consiste no desenvolvimento de intranet para a interação entre aluno
 
 Em conjunto será desenvolvido também o lado do aluno, facilitando a visualização e compreensão da situação financeira, acadêmica, avisos e comunicação entre professores e alunos.
 
+## Infraestrutura
+Para maior controle a infraestrutura será local tendo integração com a rede local da instituição e também acesso via WEB.
+
 ## Requisitos
 
 - Login
