@@ -35,3 +35,8 @@
 - [MODELO] NoSQL
 - [SGBD] MongoDB
     (Justificativa) Líder no mundo NoSQL, possui implementações práticas para o gerenciamento do banco de dados.
+
+### Segurança
+- JWT para authenticação de sessão dos usuários.
+- Criptografia SHA256 dos dados sensíveis que exigem a necessidade de serem salvos no banco de dados.
+- Certificação do protocolo HTTPS.
