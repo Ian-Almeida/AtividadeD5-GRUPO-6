@@ -1,6 +1,6 @@
 # Documentação da modelagem de classes do banco de dados
 
-### Users collection
+### Users table
 | FIELD          | TYPE      | MODIFIERS             |
 |----------------|-----------|-----------------------|
 |_idUser         |ObjectId   |Primary Key, Not Null  |
@@ -9,20 +9,20 @@
 |isStudent       |bool       |                       |
 |isTeacher       |bool       |                       |
 ---
-### Subjects collection
+### Subjects table
 | FIELD          | TYPE      | MODIFIERS             |
 |----------------|-----------|-----------------------|
 |_idSubject      |ObjectId   |Primary Key, Not Null  |
 |name            |string     |Not Null               |
 |idCourse        |ObjectId   |Foreing Key, Not Null  |
 ---
-### Courses collection
+### Courses table
 | FIELD          | TYPE      | MODIFIERS             |
 |----------------|-----------|-----------------------|
 |_idCourse       |ObjectId   |Primary Key, Not Null  |
 |name            |string     |Not Null               |
 ---
-### Finances collection
+### Finances table
 | FIELD             | TYPE      | MODIFIERS             |
 |-------------------|-----------|-----------------------|
 |_idFinance         |ObjectId   |Primary Key, Not Null  |
@@ -30,7 +30,7 @@
 |fullPrice          |double     |Not Null               |
 |idUser             |ObjectId   |Foreing Key, Not Null  |
 ---
-### Finances Installments collection
+### Finances Installments table
 | FIELD                 | TYPE      | MODIFIERS             |
 |-----------------------|-----------|-----------------------|
 |_idFinanceInstallments |ObjectId   |Primary Key, Not Null  |
@@ -40,7 +40,7 @@
 |idFinance              |int        |Foreing Key, Not Null  |
 |paid                   |double     |                       |
 ---
-### Classes collection
+### Classes table
 | FIELD                 | TYPE      | MODIFIERS             |
 |-----------------------|-----------|-----------------------|
 |_idClass               |ObjectId   |Primary Key, Not Null  |
@@ -49,21 +49,21 @@
 |end                    |timestamp  |                       |
 |idSubject              |ObjectId   |Foreing Key, Not Null  |
 ---
-### Classes Days collection
+### Classes Days table
 | FIELD                 | TYPE      | MODIFIERS             |
 |-----------------------|-----------|-----------------------|
 |_idClassDay            |ObjectId   |Primary Key, Not Null  |
 |date                   |timestamp  |Not Null               |
 |idClass                |ObjectId   |Foreing Key, Not Null  |
 ---
-### Classes Users collection
+### Classes Users table
 | FIELD                 | TYPE      | MODIFIERS             |
 |-----------------------|-----------|-----------------------|
 |_idClassUser           |ObjectId   |Primary Key, Not Null  |
 |idUser                 |ObjectId   |Foreing Key, Not Null  |
 |idClass                |ObjectId   |Foreing Key, Not Null  |
 ---
-### Classes User Day collection
+### Classes User Day table
 | FIELD                 | TYPE      | MODIFIERS             |
 |-----------------------|-----------|-----------------------|
 |_idClassUserDay        |ObjectId   |Primary Key, Not Null  |
@@ -71,14 +71,14 @@
 |idClassUser            |ObjectId   |Foreing Key, Not Null  |
 |idClassDay             |ObjectId   |Foreing Key, Not Null  |
 ---
-### Classes Activities collection
+### Classes Activities table
 | FIELD                 | TYPE      | MODIFIERS             |
 |-----------------------|-----------|-----------------------|
 |_idClassActivity       |ObjectId   |Primary Key, Not Null  |
 |date                   |timestamp  |Not Null               |
 |idClass                |ObjectId   |Foreing Key, Not Null  |
 ---
-### Classes User Activities collection
+### Classes User Activities table
 | FIELD                 | TYPE      | MODIFIERS             |
 |-----------------------|-----------|-----------------------|
 |_idClassUserActivity   |ObjectId   |Primary Key, Not Null  |
@@ -87,14 +87,14 @@
 |idClassActivity        |ObjectId   |Foreing Key, Not Null  |
 |idClassUser            |ObjectId   |Foreing Key, Not Null  |
 ---
-### Warning collection
+### Warning table
 | FIELD                 | TYPE      | MODIFIERS             |
 |-----------------------|-----------|-----------------------|
 |_idWarning             |ObjectId   |Primary Key, Not Null  |
 |description            |string     |Not Null               |
 |title                  |string     |Not Null               |
 ---
-### Calendar Events collection
+### Calendar Events table
 | FIELD                 | TYPE      | MODIFIERS             |
 |-----------------------|-----------|-----------------------|
 |_idCalendarEvent       |ObjectId   |Primary Key, Not Null  |
