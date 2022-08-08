@@ -32,9 +32,9 @@
     * (Justificativa) Módulo que permite criar "branches" e "versões" do banco de dados, refletindo a implmentação e descrição do SQLAlchemy.
 
 ### Banco de dados
-- [MODELO] NoSQL
-- [SGBD] MongoDB
-    (Justificativa) Líder no mundo NoSQL, possui implementações práticas para o gerenciamento do banco de dados.
+- [MODELO] Relacional SQL
+- [SGBD] MySQL
+    (Justificativa) Um dos mais famosos e consolidados no mercado. Portanto, pela necessidade de criar grandes relacionamentos entre as tabelas, concluímos que um SGBD de arquitetura relacional fosse a melhor opção.
 
 ### Segurança
 - JWT para authenticação de sessão dos usuários.
