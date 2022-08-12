@@ -6,7 +6,7 @@ Em conjunto será desenvolvido também o lado do aluno, facilitando a visualiza�
 ## Infraestrutura
 Para maior controle a infraestrutura será local tendo integração com a rede local da instituição e também acesso via WEB.
 
-## Requisitos
+## Requisitos Funcionais
 
 - Login
     * Professor
@@ -31,3 +31,9 @@ Para maior controle a infraestrutura será local tendo integração com a rede l
     * Impressão de boletos
     * Contestação de cobrança
 
+## Requisitos Não Funcionais
+- A aplicação deve ser de fácil acesso e entendimento, para que professores e alunos possam utilizar com a menor margem de erro possível.
+- A aplicação deve ser segura e seguir com rigidez as normas da LGPD.
+- A aplicação deve ser escalável para a implantação de novos módulos e funcionalidades quando requisitado pela a instituição.
+- A aplicação deve ter um layout moderno, simples e direto.
+- A aplicação deve ficar disponível 98% do tempo, por conta de pendências relacionadas a atividades que serão requisitadas na plataforma.
