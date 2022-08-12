@@ -10,6 +10,7 @@ Para garantir maior controle a infraestrutura será local tendo integração com
 
 - [**Informações do projeto**](#)
   - [Requisitos](REQUISITOS.md)
+  - [Diagrama de Arquitetura do projeto e Segurança](Arquitetura.drawio.png)
   - Arquitetura do Banco de Dados
     * [Diagrama](database-diagram.png)
     * [Documentação](DATABASE-DOCUMENTATION.md)
